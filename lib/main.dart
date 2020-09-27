@@ -1,5 +1,5 @@
 
-import 'package:flutter/material.dart';
+import  'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:ProviderShopper_Flutter/common/theme.dart';
 import 'package:ProviderShopper_Flutter/models/cart.dart';
@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
         ),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Provider Demo',
         theme: appTheme,
         initialRoute: '/',
