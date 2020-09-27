@@ -19,10 +19,18 @@ dev_dependencies:
     sdk: flutter
 
   pedantic: ^1.9.0
+  flutter_launcher_icons: "^0.8.0"
 
 # The following section is specific to Flutter.
 flutter:
   uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:
@@ -37,14 +45,14 @@ flutter:
 
 
 
-  fonts:
-    - family: Corben
-      fonts:
-        - asset: fonts/Corben/Corben-Bold.ttf
-          weight: 700
+#  fonts:
+#    - family: Corben
+#      fonts:
+#        - asset: fonts/Corben/Corben-Bold.ttf
+#          weight: 700
 
 
-  #   - family: Schyler
+#     - family: Schyler
   #     fonts:
   #       - asset: fonts/Schyler-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
